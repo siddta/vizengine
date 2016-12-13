@@ -1,0 +1,12 @@
+Makefile:143: target '../build/rm_testkpg.o' given more than once in the same rule
+Makefile:146: target 'rm_testkpg' given more than once in the same rule
+Makefile:143: target '../build/rm_testkpg.o' given more than once in the same rule
+Makefile:146: target 'rm_testkpg' given more than once in the same rule
+g++ -m32 -g -O1 -Wall -DPF_STATS -I. -c pf_buffermgr.cc -o ../build/pf_buffermgr.o
+In file included from pf_buffermgr.cc:18:0:
+/usr/include/c++/4.9/cstdio:41:28: fatal error: bits/c++config.h: No such file or directory
+ #include <bits/c++config.h>
+                            ^
+compilation terminated.
+Makefile:144: recipe for target '../build/pf_buffermgr.o' failed
+make: *** [../build/pf_buffermgr.o] Error 1

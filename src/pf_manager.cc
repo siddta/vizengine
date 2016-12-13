@@ -1,10 +1,3 @@
-//
-// File:        pf_manager.cc
-// Description: PF_Manager class implementation
-// Authors:     Hugo Rivero (rivero@cs.stanford.edu)
-//              Dallan Quass (quass@cs.stanford.edu)
-//
-
 #include <cstdio>
 #include <unistd.h>
 #include <fcntl.h>

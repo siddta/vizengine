@@ -14,8 +14,6 @@
 #include "ix.h"
 #include <string>
 #include "ql_node.h"
-
-
 using namespace std;
 
 /*

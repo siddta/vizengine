@@ -3,7 +3,12 @@ redbase
 
 A mini relational databased for the CS346 Stanford class. See the website for more details: http://web.stanford.edu/class/cs346/project.html
 
+please install:
+sudo apt-get install gcc-multilib g++-multilib bison flex
+
+
 To compile, type "make".
+
 
 To create a database:
 ./dbcreate "dbname"
