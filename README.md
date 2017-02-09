@@ -37,8 +37,7 @@ also deals with loading data into databases.
 
 QL - Query Layer
 This is the most interesting part of the system. It takes the output of the parser
-(that was given to us) and implements the appropraite SQL query. Details of what
-is implemented is in http://web.stanford.edu/class/cs346/ql.html.
+(that was given to us) and implements the appropraite SQL query.
 The QL layer constructs the query tree plan, and executes them with iterators. It
 constructs the tree with objects that I've called "nodes" in the files, and
 keeps a pointer to the root. Then, when a record is requested from the root, it
