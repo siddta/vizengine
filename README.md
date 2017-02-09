@@ -1,3 +1,6 @@
+
+https://web.stanford.edu/class/cs346/2015/redbase.html
+
 please install:
 sudo apt-get install gcc-multilib g++-multilib bison flex
 
