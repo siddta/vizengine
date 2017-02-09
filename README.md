@@ -1,8 +1,3 @@
-z-store
-=======
-
-z-store is built on top of stanford's redbase, a mini relational database for the CS346 Stanford class. See the website for more details: http://web.stanford.edu/class/cs346/project.html
-
 please install:
 sudo apt-get install gcc-multilib g++-multilib bison flex
 
@@ -19,9 +14,7 @@ To use the database created:
 To destroy the database:
 ./dbdestroy "dbname"
 
-My implementation documentation for each layer can be found in the "doc" folder.
 
-Here is a VERY high level overview for the "parts" of the system:
 RM - Record Manager
 The Record manager organizes pages into databases. It keeps a header page with
 informaiton about the record sizes, the number of pages in the table, etc. Each
